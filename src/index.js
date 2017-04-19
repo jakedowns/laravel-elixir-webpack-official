@@ -21,7 +21,7 @@ Elixir.webpack = {
         },
         devtool: Elixir.config.sourcemaps ? 'eval-cheap-module-source-map' : '',
         module: {
-            loaders: [{ test: /\.js$/, loader: 'buble' }]
+            //rules: [{ test: /\.js$/, loader: 'buble-loader' }]
         },
         stats: {
             assets: false,
